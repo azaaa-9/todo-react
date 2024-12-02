@@ -28,9 +28,9 @@ const Home =() => {
 //     </div>
 //   );
 // }
-const 
 
-<button className="AddButton">ADD</button>
+
+
 
   return (
     <div className="column-container">
@@ -46,8 +46,13 @@ const
       <div className="card4">
         <h3>Blocked</h3>
       </div>
+      <div>
+      <button className="AddButton" onClick={() => 
+          alert("click")
+        }> ADD</button>
+     
+      </div>
     </div>
-
   );
 };
 export default Home;
